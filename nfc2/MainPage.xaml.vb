@@ -66,4 +66,8 @@ Public NotInheritable Class MainPage
         response.EnsureSuccessStatusCode()
 
     End Function
+
+    Private Sub Button_Click(sender As Object, e As RoutedEventArgs)
+        Application.Current.Exit()
+    End Sub
 End Class

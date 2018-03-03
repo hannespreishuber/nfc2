@@ -8,7 +8,7 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Button Content="Close" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+        <Button Content="Close" HorizontalAlignment="Right" VerticalAlignment="top" Margin="0,0,0,0" Click="Button_Click"/>
         <TextBox Name="text1" HorizontalAlignment="Stretch"  Height="30" />
 
     </Grid>
